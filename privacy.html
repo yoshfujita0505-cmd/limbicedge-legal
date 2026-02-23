@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – LimbicEdge</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0a0a0f;
+      color: #e0e0f0;
+      line-height: 1.7;
+    }
+    header {
+      background: #0d0d1a;
+      border-bottom: 3px solid #8b5cf6;
+      padding: 24px 0;
+      text-align: center;
+    }
+    header .logo { font-size: 2rem; font-weight: 900; color: #fff; letter-spacing: 2px; }
+    header .logo span { color: #8b5cf6; }
+    header .sub { color: #aaa; font-size: 0.9rem; margin-top: 4px; }
+    main { max-width: 860px; margin: 0 auto; padding: 48px 24px; }
+    h1 { font-size: 2rem; color: #8b5cf6; margin-bottom: 8px; }
+    .updated { color: #888; font-size: 0.85rem; margin-bottom: 36px; }
+    h2 { font-size: 1.2rem; color: #8b5cf6; margin: 32px 0 12px; border-left: 4px solid #8b5cf6; padding-left: 12px; }
+    p, li { color: #ccc; margin-bottom: 10px; }
+    ul, ol { padding-left: 20px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+    th { background: #1a1a2e; color: #8b5cf6; padding: 10px; text-align: left; }
+    td { padding: 10px; border-bottom: 1px solid #1a1a2e; color: #ccc; }
+    a { color: #8b5cf6; }
+    .highlight { background: #0f0f1e; border-left: 4px solid #8b5cf6; padding: 16px; margin: 16px 0; border-radius: 4px; }
+    footer { text-align: center; padding: 32px; color: #555; font-size: 0.85rem; border-top: 1px solid #1a1a2e; margin-top: 48px; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">Limbic<span>Edge</span></div>
+  <div class="sub">Dark Psychology. Real Science.</div>
+</header>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: February 23, 2026</p>
+
+  <div class="highlight">
+    <strong>Summary:</strong> LimbicEdge collects only the minimum data necessary to operate the service. We do not sell your data. We do not store your TikTok content or credentials beyond what is required for publishing.
+  </div>
+
+  <h2>1. Who We Are</h2>
+  <p>LimbicEdge is a self-hosted content publishing application that helps creators publish short-form psychology and behavioral science videos to TikTok and YouTube. We operate as an independent application connecting to TikTok's official Content API.</p>
+
+  <h2>2. Data We Collect</h2>
+
+  <h2>2.1 Data Collected from TikTok</h2>
+  <p>When you connect your TikTok account via Login Kit, we access the following data through TikTok's official API:</p>
+  <table>
+    <tr><th>Data Type</th><th>Scope Used</th><th>Purpose</th><th>Retention</th></tr>
+    <tr><td>Display name</td><td>user.info.basic</td><td>Show your account in our dashboard</td><td>Until disconnected</td></tr>
+    <tr><td>Avatar URL</td><td>user.info.basic</td><td>Display profile image in dashboard</td><td>Until disconnected</td></tr>
+    <tr><td>Follower count</td><td>user.info.basic</td><td>Analytics display</td><td>Until disconnected</td></tr>
+    <tr><td>Open ID</td><td>user.info.basic</td><td>Identify your account internally</td><td>Until disconnected</td></tr>
+    <tr><td>Access token</td><td>All scopes</td><td>Authenticate API requests</td><td>Encrypted, until disconnected</td></tr>
+  </table>
+  <p>We do <strong>not</strong> collect: private messages, liked videos, browsing history, location data, or any data not listed above.</p>
+
+  <h2>2.2 Content Data</h2>
+  <p>Videos you upload through LimbicEdge are:</p>
+  <ul>
+    <li>Temporarily stored on our server solely for the purpose of uploading to TikTok</li>
+    <li>Deleted from our servers immediately after successful upload</li>
+    <li>Never analyzed, shared, or used for any purpose other than publishing</li>
+  </ul>
+
+  <h2>2.3 Application Data</h2>
+  <ul>
+    <li>Publishing schedule and history (stored locally, not shared)</li>
+    <li>Application configuration and preferences</li>
+  </ul>
+
+  <h2>3. How We Use Your Data</h2>
+  <p>We use collected data exclusively to:</p>
+  <ul>
+    <li>Authenticate your TikTok account and maintain connection</li>
+    <li>Display your account information within the LimbicEdge dashboard</li>
+    <li>Publish videos to TikTok on your explicit instruction</li>
+    <li>Show publishing history and basic analytics</li>
+  </ul>
+  <p>We <strong>never</strong> use your data for advertising, profiling, or third-party sharing.</p>
+
+  <h2>4. Data Storage and Security</h2>
+  <ul>
+    <li>All data is stored locally on your own server (self-hosted deployment)</li>
+    <li>Access tokens are stored encrypted in the local database</li>
+    <li>No data is transmitted to LimbicEdge servers — this is a self-hosted application</li>
+    <li>We recommend using HTTPS to secure your installation</li>
+  </ul>
+
+  <h2>5. Your Rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li><strong>Access:</strong> View all data we store about you</li>
+    <li><strong>Delete:</strong> Remove your account and all associated data at any time</li>
+    <li><strong>Revoke:</strong> Disconnect TikTok access at any time via TikTok's Security Settings → Apps and Websites</li>
+    <li><strong>Export:</strong> Request a copy of your data</li>
+  </ul>
+
+  <h2>6. TikTok Data Deletion</h2>
+  <p>To delete all TikTok-related data from LimbicEdge:</p>
+  <ol>
+    <li>Go to LimbicEdge Dashboard → Integrations</li>
+    <li>Select your TikTok account → Disconnect</li>
+    <li>All tokens and profile data are immediately deleted from our database</li>
+  </ol>
+  <p>Additionally, revoke access from TikTok: <strong>Settings → Security → Connected Apps → LimbicEdge → Revoke</strong></p>
+
+  <h2>7. Children's Privacy</h2>
+  <p>LimbicEdge is not intended for users under the age of 13. We do not knowingly collect data from children. If you believe a child has connected their account, contact us immediately.</p>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy. Changes will be posted on this page with an updated date. Continued use of the service constitutes acceptance of the updated policy.</p>
+
+  <h2>9. Contact Us</h2>
+  <p>For privacy-related inquiries, data deletion requests, or concerns, contact us at:</p>
+  <ul>
+    <li>Email: <a href="mailto:privacy@limbicedge.com">privacy@limbicedge.com</a></li>
+    <li>Response time: Within 48 hours</li>
+  </ul>
+</main>
+<footer>
+  &copy; 2026 LimbicEdge. All rights reserved. &nbsp;|&nbsp;
+  <a href="terms.html">Terms of Service</a>
+</footer>
+</body>
+</html>
